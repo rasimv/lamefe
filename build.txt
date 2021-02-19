@@ -1,0 +1,29 @@
+﻿Microsoft Windows + Visual Studio 2019 + Windows SDK 10
+
+	1. Open lamefe.sln in Visual Studio
+
+	2. Select desired configuration: Release or Debug
+
+	3. Build -> Build Solution
+
+	4. Executables:
+		x64\Release\lamefe.exe
+		x64\Release\lamefewin64.exe
+			or
+		x64\Debug\lamefe.exe
+		x64\Debug\lamefewin64.exe
+
+
+Linux + cmake 3.8 + g++ 9
+
+	1. Go inside lame subdirectory and build lame:
+		chmod +x configure
+		./configure
+		make
+
+	2. Go inside project's root directory and build lamefe:
+		cmake .
+		make
+
+	3. Executable:
+		lamefe/lamefe

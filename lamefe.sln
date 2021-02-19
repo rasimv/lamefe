@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lamefe", "lamefe\lamefe.vcxproj", "{CD5D5830-7D37-45AD-8012-0B48F7F876D0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libmpghip-static", "lame\vc_solution\vc9_mpglib.vcxproj", "{E2DAB91A-8248-4625-8A85-2C2C2A390DD8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libmp3lame-static", "lame\vc_solution\vc9_libmp3lame.vcxproj", "{20536101-3B0E-43EF-94F9-080D595DAC57}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lamefewin64", "lamefe\lamefewin64.vcxproj", "{78126941-029E-4E67-A7F9-181AA53F76D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+		ReleaseSSE2|x64 = ReleaseSSE2|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD5D5830-7D37-45AD-8012-0B48F7F876D0}.Debug|x64.ActiveCfg = Debug|x64
+		{CD5D5830-7D37-45AD-8012-0B48F7F876D0}.Debug|x64.Build.0 = Debug|x64
+		{CD5D5830-7D37-45AD-8012-0B48F7F876D0}.Release|x64.ActiveCfg = Release|x64
+		{CD5D5830-7D37-45AD-8012-0B48F7F876D0}.Release|x64.Build.0 = Release|x64
+		{CD5D5830-7D37-45AD-8012-0B48F7F876D0}.ReleaseSSE2|x64.ActiveCfg = Release|x64
+		{CD5D5830-7D37-45AD-8012-0B48F7F876D0}.ReleaseSSE2|x64.Build.0 = Release|x64
+		{E2DAB91A-8248-4625-8A85-2C2C2A390DD8}.Debug|x64.ActiveCfg = Debug|x64
+		{E2DAB91A-8248-4625-8A85-2C2C2A390DD8}.Debug|x64.Build.0 = Debug|x64
+		{E2DAB91A-8248-4625-8A85-2C2C2A390DD8}.Release|x64.ActiveCfg = Release|x64
+		{E2DAB91A-8248-4625-8A85-2C2C2A390DD8}.Release|x64.Build.0 = Release|x64
+		{E2DAB91A-8248-4625-8A85-2C2C2A390DD8}.ReleaseSSE2|x64.ActiveCfg = ReleaseSSE2|x64
+		{E2DAB91A-8248-4625-8A85-2C2C2A390DD8}.ReleaseSSE2|x64.Build.0 = ReleaseSSE2|x64
+		{20536101-3B0E-43EF-94F9-080D595DAC57}.Debug|x64.ActiveCfg = Debug|x64
+		{20536101-3B0E-43EF-94F9-080D595DAC57}.Debug|x64.Build.0 = Debug|x64
+		{20536101-3B0E-43EF-94F9-080D595DAC57}.Release|x64.ActiveCfg = Release|x64
+		{20536101-3B0E-43EF-94F9-080D595DAC57}.Release|x64.Build.0 = Release|x64
+		{20536101-3B0E-43EF-94F9-080D595DAC57}.ReleaseSSE2|x64.ActiveCfg = ReleaseSSE2|x64
+		{20536101-3B0E-43EF-94F9-080D595DAC57}.ReleaseSSE2|x64.Build.0 = ReleaseSSE2|x64
+		{78126941-029E-4E67-A7F9-181AA53F76D8}.Debug|x64.ActiveCfg = Debug|x64
+		{78126941-029E-4E67-A7F9-181AA53F76D8}.Debug|x64.Build.0 = Debug|x64
+		{78126941-029E-4E67-A7F9-181AA53F76D8}.Release|x64.ActiveCfg = Release|x64
+		{78126941-029E-4E67-A7F9-181AA53F76D8}.Release|x64.Build.0 = Release|x64
+		{78126941-029E-4E67-A7F9-181AA53F76D8}.ReleaseSSE2|x64.ActiveCfg = Release|x64
+		{78126941-029E-4E67-A7F9-181AA53F76D8}.ReleaseSSE2|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {22002E83-2136-4DED-8D98-AF266C2A46FF}
+	EndGlobalSection
+EndGlobal
